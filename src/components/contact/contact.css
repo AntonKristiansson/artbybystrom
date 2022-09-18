@@ -1,0 +1,81 @@
+form {
+        width: 50%;
+        margin: 10px auto; 
+        color: rgb(235, 235, 235);
+        font-family: sans-serif;
+        padding: 20px;  
+    }
+
+.form_title {
+    text-align: center;
+    margin-top: 80px;    
+    font-weight: 400;
+    color: rgb(235, 235, 235);
+}
+
+input,
+textarea {
+    width: 100%;
+    border: 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid rgb(173, 173, 173);
+    border-radius: 8px; 
+    color: rgb(235, 235, 235);
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+    border: 3px solid rgb(218, 93, 93);
+    font-weight: bold;
+    color: rgb(235, 235, 235);
+    font-size: 16px;           
+    border-radius: 0.4rem;
+    background: rgb(14, 14, 14);
+}
+
+button:hover {
+    background: rgb(218, 93, 93);
+    color: rgb(14, 14, 14);
+}
+
+span {
+    display: none;
+    text-align: center;
+}
+
+.visible {
+    display: block;
+}
+
+.message_is_sent {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--color-white);
+    color: green;
+    border-radius: 2rem;
+    padding: 0.8rem 2rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+    transition: var(--transition);
+    animation: slideDown;
+    animation-fill-mode: forwards;
+    animation-duration: 2000ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  }
+        

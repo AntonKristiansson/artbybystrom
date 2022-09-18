@@ -1,0 +1,62 @@
+.navbar {
+    position: fixed;
+    z-index: 2;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding-left: 25%;
+    padding-right: 25%;
+    width: 100%;
+    height: 70px;
+    background: transparent;
+    
+}
+
+.navbar.active {
+    background: rgb(14, 14, 14);
+}
+
+.navbar p {
+    cursor: pointer;
+}
+
+
+Link.active {
+    font-weight: bold;
+  }
+
+.navbar a {
+  
+    text-align: center;
+    margin: auto;
+    color: rgb(235, 235, 235);  
+}
+
+.navbar a:hover {
+    color: rgb(218, 93, 93);
+}
+
+.active.active {    
+    color: rgb(218, 93, 93);
+}
+
+
+
+.CTA_button:hover {
+    color: rgb(14, 14, 14);
+    background-color: rgb(218, 93, 93);
+}
+
+.CTA_button {
+    border: 3px solid rgb(218, 93, 93);
+    width: 120px;
+    height: 45px;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    margin-left: 90%;
+    margin-top: 12.5px;
+    color: rgb(235, 235, 235);
+}

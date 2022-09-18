@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --transition: all 400ms ease;
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: 'Poppins';
+    background: rgb(14, 14, 14);
+    line-height: 1.7;
+    
+}
+
+/* ===================== General STYLES ==============*/
+
+
+a {
+    transition: var(--transition);
+}
+
+button {
+    transition: var(--transition);
+}
+
+
+
+/* =========medium devices */
+
+@media screen and (max-width: 1024px)  {
+    .container {
+        width: var(--container-width-md);
+    }
+
+    section {
+        margin-top: 6rem;
+    }
+}
+/* =========small devices */
+@media screen and (max-width: 600px)  {
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    section > h2 {
+        margin-bottom: 2rem;
+    }
+}
+
